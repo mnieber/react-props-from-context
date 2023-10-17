@@ -1,0 +1,18 @@
+{
+  "name": "react-props-from-context",
+  "version": "1.0.0",
+  "description": "Pick props from React contexts in a relatively type-safe way",
+  "main": "index.js",
+  "repository": "https://github.com/mnieber/react-props-from-context.git",
+  "author": "Maarten Nieber",
+  "license": "MIT",
+  "types": "index.d.ts",
+  "prepublish": "tsc",
+  "peerDependencies": {
+    "@types/react": ">=16.9.52",
+    "react": ">=16.13.1"
+  },
+  "devDependencies": {
+    "typescript": ">=4.0.3"
+  }
+}
